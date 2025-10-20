@@ -53,7 +53,7 @@ window.addEventListener("DOMContentLoaded", () => {
         servicesList.appendChild(col);
     });
 
-    // Projects
+    // Projects (تحسين الوصولية)
     const projectImages = [
         "img/proj1.webp", "img/proj2.webp", "img/proj3.webp", "img/proj4.webp",
         "img/proj5.webp", "img/proj6.webp", "img/proj7.webp", "img/proj8.webp",
@@ -68,9 +68,15 @@ window.addEventListener("DOMContentLoaded", () => {
     projectImages.forEach((src, index) => {
         const card = document.createElement("div");
         card.className = "project-card mb-4 position-relative";
+
         const img = document.createElement("img");
         img.src = src;
         img.className = "w-100 d-block";
+        img.alt = `Project image ${index + 1}`;
+        img.width = 400;
+        img.height = 300;
+        img.loading = "lazy";
+
         card.appendChild(img);
 
         if (index < 6) projectsList.appendChild(card);
@@ -82,7 +88,7 @@ window.addEventListener("DOMContentLoaded", () => {
         this.textContent = extraDiv.classList.contains('d-none') ? 'Show More' : 'Show Less';
     });
 
-    // Social Media Projects
+    // Social Media Projects (تحسين الوصولية)
     const socialImages = [
         "img/social1.webp", "img/social2.webp", "img/social3.webp", "img/social4.webp",
         "img/social5.webp", "img/social6.webp", "img/social7.webp", "img/social8.webp",
@@ -96,9 +102,15 @@ window.addEventListener("DOMContentLoaded", () => {
     socialImages.forEach((src, index) => {
         const card = document.createElement("div");
         card.className = "project-card mb-4 position-relative";
+
         const img = document.createElement("img");
         img.src = src;
         img.className = "w-100 d-block";
+        img.alt = `Social media project ${index + 1}`;
+        img.width = 400;
+        img.height = 300;
+        img.loading = "lazy";
+
         card.appendChild(img);
 
         if (index < 6) socialList.appendChild(card);
