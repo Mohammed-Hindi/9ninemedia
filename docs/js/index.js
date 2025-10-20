@@ -55,10 +55,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Projects
     const projectImages = [
-        "img/proj1.png", "img/proj2.png", "img/proj3.png", "img/proj4.png",
-        "img/proj5.png", "img/proj6.png", "img/proj7.png", "img/proj8.png",
-        "img/proj9.png", "img/proj10.png", "img/proj11.png", "img/proj12.png",
-        "img/proj13.png", "img/proj14.png", "img/proj15.png", "img/proj16.png"
+        "img/proj1.webp", "img/proj2.webp", "img/proj3.webp", "img/proj4.webp",
+        "img/proj5.webp", "img/proj6.webp", "img/proj7.webp", "img/proj8.webp",
+        "img/proj9.webp", "img/proj10.webp", "img/proj11.webp", "img/proj12.webp",
+        "img/proj13.webp", "img/proj14.webp", "img/proj15.webp", "img/proj16.webp"
     ];
 
     const projectsSection = document.getElementById("projects");
@@ -84,9 +84,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Social Media Projects
     const socialImages = [
-        "img/social1.png", "img/social2.png", "img/social3.png", "img/social4.png",
-        "img/social5.png", "img/social6.png", "img/social7.png", "img/social8.png",
-        "img/social9.png", "img/social10.png", "img/social11.png", "img/social12.png"
+        "img/social1.webp", "img/social2.webp", "img/social3.webp", "img/social4.webp",
+        "img/social5.webp", "img/social6.webp", "img/social7.webp", "img/social8.webp",
+        "img/social9.webp", "img/social10.webp", "img/social11.webp", "img/social12.webp"
     ];
 
     const socialSection = document.getElementById("social-media-projects");
