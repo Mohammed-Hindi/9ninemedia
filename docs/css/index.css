@@ -1,0 +1,166 @@
+ #welcomeScreen {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #111;
+     z-index: 9999;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     opacity: 1;
+     transition: opacity 0.5s ease;
+     pointer-events: all;
+     /* تفعيل التفاعل أولاً */
+ }
+
+ #welcomeText {
+     color: #c218d8;
+
+ }
+
+ #welcomeSub {
+     color: rgb(131, 30, 225);
+
+ }
+
+ .textLogo,
+ .nav-link {
+     color: rgb(235, 21, 153);
+ }
+
+ .nav-link:hover {
+     color: rgb(131, 30, 225);
+     transition: 0.5s;
+ }
+
+ .navbar-brand {
+     width: 120px;
+     animation: glow 2s infinite alternate;
+ }
+
+ .navbar-toggler-icon {
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ec1e9a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+ }
+
+ @keyframes glow {
+     0% {
+         filter: brightness(100%);
+         transform: scale(1);
+     }
+
+     50% {
+         filter: brightness(150%);
+         transform: scale(1.1);
+     }
+
+     100% {
+         filter: brightness(100%);
+         transform: scale(1);
+     }
+ }
+
+ .sectionTitle {
+     color: #c218d8;
+ }
+
+ .sectionSub {
+     color: #e9ca31;
+
+ }
+
+ .bg-pink {
+     background-color: #920042;
+     /* اختر اللون الزهري اللي يناسبك */
+     border-radius: 15px;
+ }
+
+ .service-title {
+     color: #ffffff;
+     /* لضمان النص الأبيض */
+ }
+
+ .btn-modal:hover {
+     background-color: #db8bd4;
+ }
+
+ #projects {
+     color: #fff;
+ }
+
+ .projTitle {
+     color: #db8bd4;
+ }
+
+ .project-card {
+     border-radius: 20px;
+     overflow: hidden;
+     box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+     transition: transform 0.4s ease, box-shadow 0.4s ease;
+ }
+
+ .project-card img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+     transition: transform 0.4s ease;
+ }
+
+ .project-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+ }
+
+ .project-card:hover img {
+     transform: scale(1.05);
+ }
+
+ #showMoreBtn {
+     border: 2px solid #ff69b4;
+     color: #ff69b4;
+     transition: all 0.3s ease;
+ }
+
+ #showMoreBtn:hover {
+     background-color: #ff69b4;
+     color: #fff;
+ }
+ /* Section Background */
+#contact {
+    color: #fff;
+}
+
+
+.form-card {
+    background: linear-gradient(135deg, #b7216c, #6f039a); 
+    color: #fff;
+}
+
+.contact-info-card {
+    background: linear-gradient(135deg, #59047b, #6c029a); 
+    color: #fff;
+}
+
+.map-card {
+    background: linear-gradient(135deg, #8e44ad, #663399); 
+    color: #fff;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+#contact .send {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #db8bd4;
+    color:#59047b;
+}
+#contact .send:hover{
+    background-color:#59047b;
+    color: #db8bd4;
+} 
+
